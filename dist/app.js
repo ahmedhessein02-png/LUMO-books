@@ -1,6 +1,6 @@
 'use strict';
 let books=[],category='All books',expanded=false;
-const $=id=>document.getElementById(id),categories=['All books','Coloring Books','Color by Number','Early Learning','Math Workbooks','Puzzles & Brain Games','Reading & Stories','Comics & Adventures','Creative Activities'];
+const $=id=>document.getElementById(id),categories=["All books", "ABC & Number Books", "Activity Books", "Brain Books", "Coloring Books · Ages 3–7", "Coloring Books · Ages 3–8", "Coloring Books · Ages 4–8", "Coloring Books · Ages 6–10", "Coloring Books · Ages 7–13", "Comic Books", "Math Books", "Story Books"];
 function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
 function price(b){return b.price===null?'Price coming soon':new Intl.NumberFormat('en-IQ',{style:'currency',currency:b.currency||'IQD',maximumFractionDigits:0}).format(b.price);}
 function render(){
@@ -21,3 +21,17 @@ for(const id of ['search','age','sort'])$(id).addEventListener(id==='search'?'in
 $('show-more').onclick=()=>{expanded=true;render();};$('reset').onclick=()=>{$('search').value='';$('age').value='all';$('sort').value='featured';choose('All books');};
 document.querySelectorAll('.collection').forEach(b=>b.onclick=()=>{choose(b.dataset.category);$('catalogue').scrollIntoView();});
 fetch('catalogue.json').then(r=>{if(!r.ok)throw Error('Catalogue unavailable');return r.json();}).then(data=>{books=data;render();}).catch(()=>{$('result-count').textContent='The bookshelf could not load. Please refresh to try again.';});
+
+// Motion is optional and respects system preferences. All content remains visible without this enhancement.
+const motionToggle=document.getElementById('motion-toggle');
+const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+let motionPaused=reduceMotion.matches;
+try{motionPaused=motionPaused||localStorage.getItem('lumo-motion')==='paused';}catch{}
+function setMotion(paused){motionPaused=paused;document.body.classList.toggle('motion-paused',paused);motionToggle.setAttribute('aria-pressed',String(paused));motionToggle.textContent=paused?'Play animation':'Pause animation';}
+setMotion(motionPaused);
+motionToggle.addEventListener('click',()=>{setMotion(!motionPaused);try{localStorage.setItem('lumo-motion',motionPaused?'paused':'playing');}catch{}});
+reduceMotion.addEventListener('change',e=>setMotion(e.matches));
+if('IntersectionObserver' in window){
+ const reveals=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){e.target.classList.add('is-visible');reveals.unobserve(e.target);}},{threshold:0.08});
+ document.querySelectorAll('.collection,.story-copy,.ways article,.closing h2').forEach((node,i)=>{node.classList.add('reveal');node.style.setProperty('--reveal-delay',`${i%3*80}ms`);reveals.observe(node);});
+}

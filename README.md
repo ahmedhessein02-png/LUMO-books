@@ -18,7 +18,7 @@ Only web-optimized cover previews are published. Original wrap PDFs and book int
 
 ## Website features
 
-Responsive homepage, brand story, eight catalogue categories, all 24 supplied books, search, age filtering, sorting, keyboard-accessible book detail dialogs, reduced-motion support, and FAQs. No checkout, payment collection, or external purchase links are enabled pending confirmed prices and sales channels.
+Responsive homepage, brand story, 11 catalogue categories, all 29 supplied books, search, age filtering, sorting, keyboard-accessible book detail dialogs, reduced-motion support, and FAQs. No checkout, payment collection, or external purchase links are enabled pending confirmed prices and sales channels.
 
 ## Deployment
 
@@ -26,6 +26,12 @@ The standalone website lives in `dist/`, suitable for Cloudflare Pages or GitHub
 
 ## Reference assets
 
-Logo and all 24 supplied book PDFs were reviewed for this catalogue. The requested reference/category screenshot failed to attach, so the initial visual direction follows the supplied logo and the categories are inferred from the book covers. Revise them against the screenshot when it is available.
+Logo and all 29 supplied book PDFs were reviewed. Categories follow the supplied folder screenshot. The exact website-animation reference is still needed.
 
 © 2026 LUMO Books. Content and artwork are reserved to their respective rights holders.
+
+## October 20 update
+
+The category-folder screenshot has been reviewed. The catalogue now follows its ABC/number, activity, brain, five coloring age groups, comic, math, and story categories (with spelling normalized). Five new books bring the catalogue to 29.
+
+Added gentle floating hero artwork, twinkling stars, a moving note, scroll reveals, and dialog entrance motion. A Pause animation control and system reduced-motion preferences disable motion. The supplied screenshot only shows folders; the exact requested website-animation reference remains unavailable.

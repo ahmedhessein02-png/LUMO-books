@@ -2,7 +2,7 @@
   {
     "id": 2,
     "title": "ABC & Numbers Learning Adventure",
-    "category": "Early Learning",
+    "category": "ABC & Number Books",
     "ages": "3–6",
     "description": "Trace, count, match, and color. Explore A–Z and numbers 1–10 with friendly pictures and space to practice.",
     "price": null,
@@ -13,7 +13,7 @@
   {
     "id": 3,
     "title": "Build Your Own Fantasy World",
-    "category": "Creative Activities",
+    "category": "Activity Books",
     "ages": "8–12",
     "description": "Invent creatures, plan maps, and connect imaginative habitats in a guided drawing and story-making workbook.",
     "price": null,
@@ -24,7 +24,7 @@
   {
     "id": 4,
     "title": "Little Detective Academy",
-    "category": "Puzzles & Brain Games",
+    "category": "Brain Books",
     "ages": "6–10",
     "description": "Join Zara, Ollie, and Pip for 24 friendly mysteries with picture clues, codes, maps, and logic.",
     "price": null,
@@ -35,7 +35,7 @@
   {
     "id": 5,
     "title": "Little Brain Builders",
-    "category": "Puzzles & Brain Games",
+    "category": "Brain Books",
     "ages": "4–8",
     "description": "Look, think, and play with 44 puzzles, including mazes, differences, shadows, and patterns.",
     "price": null,
@@ -46,7 +46,7 @@
   {
     "id": 6,
     "title": "ABC, Numbers and First Words",
-    "category": "Early Learning",
+    "category": "ABC & Number Books",
     "ages": "3–6",
     "description": "A little learning book for tracing letters, discovering first words, counting, and matching.",
     "price": null,
@@ -57,7 +57,7 @@
   {
     "id": 7,
     "title": "Little Brain Builders: Mystery Adventures",
-    "category": "Puzzles & Brain Games",
+    "category": "Brain Books",
     "ages": "4–8",
     "description": "Follow Nia, Olli, and Bea through cheerful places. Find pictures, crack codes, and save clues for a final mystery.",
     "price": null,
@@ -68,7 +68,7 @@
   {
     "id": 8,
     "title": "Reading Adventure Missions",
-    "category": "Reading & Stories",
+    "category": "Activity Books",
     "ages": "6–9",
     "description": "Read short stories, find clues, and deliver a little wonder through comprehension games.",
     "price": null,
@@ -79,7 +79,7 @@
   {
     "id": 9,
     "title": "100 Days of Brain Challenges",
-    "category": "Puzzles & Brain Games",
+    "category": "Brain Books",
     "ages": "7–12",
     "description": "Explore ten puzzle planets through logic, numbers, word games, mazes, codes, and observation. A day is a session, not a deadline.",
     "price": null,
@@ -90,7 +90,7 @@
   {
     "id": 10,
     "title": "The Little Animal Kingdom",
-    "category": "Coloring Books",
+    "category": "Coloring Books · Ages 3–7",
     "ages": "3–7",
     "description": "Meet animal friends in 40 coloring adventures through gardens, cozy kitchens, woodland trails, and picnic days.",
     "price": null,
@@ -101,7 +101,7 @@
   {
     "id": 11,
     "title": "The Magical Ocean",
-    "category": "Color by Number",
+    "category": "Coloring Books · Ages 3–7",
     "ages": "3–7",
     "description": "Bring 40 underwater adventures to life with dolphins, turtles, reef fish, and simple numbered color guides.",
     "price": null,
@@ -112,7 +112,7 @@
   {
     "id": 12,
     "title": "Amazing Wheels",
-    "category": "Color by Number",
+    "category": "Coloring Books · Ages 3–8",
     "ages": "3–8",
     "description": "Discover 40 vehicle adventures with cars, trucks, trains, and easy numbered color guides.",
     "price": null,
@@ -123,7 +123,7 @@
   {
     "id": 13,
     "title": "Dino World",
-    "category": "Color by Number",
+    "category": "Coloring Books · Ages 4–8",
     "ages": "4–8",
     "description": "Color 40 friendly dinosaur adventures with bold lines and easy numbered color guides.",
     "price": null,
@@ -134,7 +134,7 @@
   {
     "id": 14,
     "title": "Little Astronauts",
-    "category": "Coloring Books",
+    "category": "Coloring Books · Ages 4–8",
     "ages": "4–8",
     "description": "Explore 40 out-of-this-world coloring adventures with cheerful astronauts and space discoveries.",
     "price": null,
@@ -145,7 +145,7 @@
   {
     "id": 15,
     "title": "Rainbow Kingdom",
-    "category": "Color by Number",
+    "category": "Coloring Books · Ages 4–8",
     "ages": "4–8",
     "description": "Meet unicorns, dragons, and flower fairies in 40 magical scenes with numbered color keys.",
     "price": null,
@@ -156,7 +156,7 @@
   {
     "id": 16,
     "title": "Fantasy Adventure Worlds",
-    "category": "Coloring Books",
+    "category": "Coloring Books · Ages 6–10",
     "ages": "6–10",
     "description": "Wander through enchanted gardens, hidden tree villages, and friendly dragon worlds in 40 coloring scenes.",
     "price": null,
@@ -167,7 +167,7 @@
   {
     "id": 17,
     "title": "Block Builders",
-    "category": "Color by Number",
+    "category": "Coloring Books · Ages 7–13",
     "ages": "7–13",
     "description": "Join an explorer, a builder, and a cube robot in 40 original geometric adventures with numbered color guides.",
     "price": null,
@@ -178,7 +178,7 @@
   {
     "id": 18,
     "title": "Kitecrag Quests",
-    "category": "Coloring Books",
+    "category": "Coloring Books · Ages 7–13",
     "ages": "7–13",
     "description": "Discover floating islands, crystal caves, dragons, and curious machines in 40 original gaming-inspired coloring scenes.",
     "price": null,
@@ -189,7 +189,7 @@
   {
     "id": 19,
     "title": "Sky Island Riders",
-    "category": "Comics & Adventures",
+    "category": "Comic Books",
     "ages": null,
     "description": "The islands are sinking and the wind bells are still. Mira, Sami, Ember, and Pip must follow hidden air paths to save their home.",
     "price": null,
@@ -200,7 +200,7 @@
   {
     "id": 20,
     "title": "The Door Beneath the School",
-    "category": "Comics & Adventures",
+    "category": "Comic Books",
     "ages": null,
     "description": "A glowing door leads Lina, Ben, and Jo to a kingdom of lost things. A colorful adventure about listening, helping, and belonging.",
     "price": null,
@@ -211,7 +211,7 @@
   {
     "id": 21,
     "title": "The Last Mapmaker",
-    "category": "Comics & Adventures",
+    "category": "Comic Books",
     "ages": null,
     "description": "Nilo draws paths that become real. When a new road sends the river away, he and Fold, a tiny paper dragon, must find a way to bring it home.",
     "price": null,
@@ -222,7 +222,7 @@
   {
     "id": 22,
     "title": "The Smallest Knight of Briarwood",
-    "category": "Comics & Adventures",
+    "category": "Comic Books",
     "ages": null,
     "description": "A stopped stream puts the Lantern Picnic in trouble. Pip, Brum, and Moss set off on an adventure with room for kindness.",
     "price": null,
@@ -233,7 +233,7 @@
   {
     "id": 23,
     "title": "The Meadow Train Math Picnic",
-    "category": "Math Workbooks",
+    "category": "Math Books",
     "ages": "4–6",
     "description": "All aboard! Join Nibo, Delpi, and Bunvo for playful counting, shapes, patterns, and early math across six railway stops.",
     "price": null,
@@ -244,7 +244,7 @@
   {
     "id": 24,
     "title": "Math Adventure Quest",
-    "category": "Math Workbooks",
+    "category": "Math Books",
     "ages": "5–8",
     "description": "Help repair the Foldlight Map through numbers, addition, subtraction, patterns, shapes, measurement, and friendly challenges.",
     "price": null,
@@ -255,12 +255,67 @@
   {
     "id": 25,
     "title": "Math Mission: Ocean City",
-    "category": "Math Workbooks",
+    "category": "Math Books",
     "ages": "7–10",
     "description": "Help an underwater city prepare for its Festival of Lights through 104 math missions, worked examples, and three readiness levels.",
     "price": null,
     "currency": "IQD",
     "image": "assets/book-25.webp",
+    "previewNote": null
+  },
+  {
+    "id": 26,
+    "title": "The Almost-Superheroes",
+    "category": "Comic Books",
+    "ages": "6–9",
+    "description": "Four friends. One runaway picnic. Pip, Dot, Bloop, and Captain Button discover how small powers and big hearts can help save the day.",
+    "price": null,
+    "currency": "IQD",
+    "image": "assets/book-26.webp",
+    "previewNote": null
+  },
+  {
+    "id": 27,
+    "title": "Little Friends, Big Hearts",
+    "category": "Story Books",
+    "ages": "3–7",
+    "description": "A broken basket, a missing ribbon, and a little misunderstanding. Can Miri, Bo, and Tavi work together to make room for everyone?",
+    "price": null,
+    "currency": "IQD",
+    "image": "assets/book-27.webp",
+    "previewNote": null
+  },
+  {
+    "id": 28,
+    "title": "Monster School: The Great Detention Disaster",
+    "category": "Comic Books",
+    "ages": "7–10",
+    "description": "One wrong button turns cleaning day into a very strange adventure. Four friends need sharp eyes, brave steps, and stretchy ideas to open the door.",
+    "price": null,
+    "currency": "IQD",
+    "image": "assets/book-28.webp",
+    "previewNote": null
+  },
+  {
+    "id": 29,
+    "title": "Robot Out of Order",
+    "category": "Comic Books",
+    "ages": "6–9",
+    "description": "Please Do Not Feed the Robot Socks. Sami, R1-Bit, and Aunt Noor solve silly science-fair mix-ups through simple tests and a small fix.",
+    "price": null,
+    "currency": "IQD",
+    "image": "assets/book-29.webp",
+    "previewNote": null
+  },
+  {
+    "id": 30,
+    "title": "The Little Bear Who Learned to Share",
+    "category": "Story Books",
+    "ages": "3–7",
+    "description": "Ben loves every toy in his basket. A wobbly little bridge leads him toward a happy discovery about sharing and taking turns.",
+    "price": null,
+    "currency": "IQD",
+    "image": "assets/book-30.webp",
     "previewNote": null
   }
 ]
